@@ -11,8 +11,8 @@
 
 
 @foreach ($footerContent as $footer)
-   
-        <p class="text-center">&copy; {{$footer -> footerText}} | <a href="{{$footer -> footerLink}}"> {{$footer -> footerName}}</a> </p>
+
+        <p class="text-center">&copy; {{$footer -> footerText}} | <a href="{{$footer -> footerLink}}" target="_blank"> {{$footer -> footerName}}</a> </p>
     </footer>
 @endforeach
 
