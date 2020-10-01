@@ -31,8 +31,8 @@
                         <th>Image</th>
                         <th>Type</th>
                         <th>Link</th>
-                        <th></th>
-                        <th></th>
+                        <th>Modify</th>
+                        <th>Delete</th>
                     </tr>
                     @foreach($productContent as $product)
                     <tr>

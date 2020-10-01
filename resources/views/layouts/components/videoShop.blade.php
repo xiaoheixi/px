@@ -2,7 +2,7 @@
     <div class="container text-center">
         <hr />
         <div align="right">
-            <a href="checkOut" class="btn btn-success">Go to Checkout</a>
+            <a href="cart" class="btn btn-success">Go to Cart</a>
         </div>
         <hr />
         <div class="widget">
