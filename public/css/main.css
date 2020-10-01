@@ -177,6 +177,13 @@ h1 {
     padding: 10px;
     background-color: black;
 } 
+.admin_sidebar a {
+    text-align: center;
+    color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
 .admin_sidebar ul{
     padding-left: 0;
 }
