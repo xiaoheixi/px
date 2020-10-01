@@ -27,7 +27,6 @@
                     <tr>
                         <th>Admin Name</th>
                         <th>Admin Email</th>
-                        <th>Admin Password</th>
                         <th>Modify</th>
                         <th>Delete</th>
                     </tr>
@@ -35,7 +34,6 @@
                     <tr>
                         <td>{{$admin->name}}</td>
                         <td>{{$admin->email}}</td>
-                        <td>{{$admin->password}}</td>
                         <td><a href="/admin/{{ $admin->name }}/edit" class="btn btn-primary">Modify</a></td>
                         <td>
                             <form action="/admin/{{ $admin->name }}" method="post">
