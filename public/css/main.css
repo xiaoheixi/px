@@ -2,24 +2,26 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     font-size: 50px;
 }
+
 .container-admin-dashboard {
     position: absolute;
     width: 1000px;
     top: 10px;
     right: 1px;
 }
+
 .card-admin-dashboard {
-        width: 100px;
-        padding: 10px;
-        border: 5px solid gray;
-        margin: 0;
+    width: 100px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
 }
 
 .flex-container-admin-dashboard {
@@ -28,27 +30,29 @@ h1 {
 
 .card-body-admin-dashboard {
     width: 100px;
-        padding: 10px;
-        border: 5px solid gray;
-        margin: 0;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
 }
 
-.backgroundImage-admin-dashboard{
+.backgroundImage-admin-dashboard {
 
 
-        padding: 50px;
+    padding: 50px;
 
-        margin: 0;
+    margin: 0;
 }
 
 
 /* user side */
-.news-page,.service-page{
+.news-page,
+.service-page {
     min-height: 565px;
     background-color: #f5f5f5;
     padding: 20px;
 }
-.footer-bottom{
+
+.footer-bottom {
     background-color: black;
     color: #fff;
     width: 100%;
@@ -57,54 +61,65 @@ h1 {
     padding: 10px;
     z-index: 11;
 }
-.card{
-    overflow:hidden;
+
+.card {
+    overflow: hidden;
     transition: .5s;
     margin-bottom: 20px;
 }
-.card:hover{
-    box-shadow:0 0 10px #ccc;
+
+.card:hover {
+    box-shadow: 0 0 10px #ccc;
 }
-.card img{
+
+.card img {
     transition: .5s;
 }
-.card:hover img{
-    transform:scale(1.1,1.1);
+
+.card:hover img {
+    transform: scale(1.1, 1.1);
 }
-.card-body{
+
+.card-body {
     transition: .5s;
 }
-.card-body:hover{
-    box-shadow:0 0 10px #ccc;
+
+.card-body:hover {
+    box-shadow: 0 0 10px #ccc;
 }
-.card-body .card-title{
+
+.card-body .card-title {
     font-size: 20px;
     text-align: left;
     /* min-height:80px; */
 }
-.card-body p{
+
+.card-body p {
     text-align: justify;
     font-size: 15px;
     padding: 3px;
     margin-bottom: 10px;
 }
-.card-body a{
+
+.card-body a {
     margin-top: 20px;
 }
 
-.contact-detail{
+.contact-detail {
     background: #000000;
     text-align: center;
     text-justify: inter-word;
 
 }
-.page-title-header{
+
+.page-title-header {
     background: #ccc;
     padding: 20px;
     font-size: 20px;
 
 }
-.page-title-header p{
+
+.page-title-header p {
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -113,51 +128,63 @@ h1 {
     padding-top: 15px;
     padding-left: 100px;
 }
-.navbar{
+
+.navbar {
     background: #0D9C4A !important;
     padding: 20px;
 }
-.navbar .navbar-brand{
+
+.navbar .navbar-brand {
     color: #dfdfdf;
 }
-.navbar .navbar-nav a{
+
+.navbar .navbar-nav a {
     margin-right: 10px;
     border-radius: 5px;
-    border:1px solid #000000;
+    border: 1px solid #000000;
     color: #000000 !important;
 }
-.navbar .navbar-nav a:hover{
+
+.navbar .navbar-nav a:hover {
     background: #ffdd00;
     color: #000000 !important;
 }
-.shop_header{
+
+.shop_header {
     padding: 20px;
     background: #dcdcdc;
     padding-bottom: 5px;
 }
-.shop_header_tab li{
+
+.shop_header_tab li {
     list-style: none;
     display: inline-block;
     background: #ffdd00;
     padding: 5px 20px;
-    border:5px double #000000;
+    border: 5px double #000000;
     margin-right: 25px;
-    transition:0.5s;
+    transition: 0.5s;
 }
-.shop_header_tab li:hover{
+
+.shop_header_tab li:hover {
     background: #ccc;
 }
-.shop_header_tab li a{
+
+.shop_header_tab li a {
     text-decoration: none;
     color: #000;
 }
-.cart table{
-    margin:40px 10px;
+
+.cart table {
+    margin: 40px 10px;
 }
-.cart table tr td,th{
+
+.cart table tr td,
+th {
     padding: 10px;
 }
-.checkout input{
+
+.checkout input {
     padding: 5px 10px;
 }
 
@@ -165,11 +192,12 @@ h1 {
 
 
 @media only screen and (max-width: 600px) {
-    .admin_sidebar{
+    .admin_sidebar {
         position: static !important;
     }
 }
-.admin_sidebar{
+
+.admin_sidebar {
     position: fixed;
     height: 100%;
     overflow-y: auto;
@@ -177,6 +205,7 @@ h1 {
     padding: 10px;
     background-color: black;
 }
+
 .admin_sidebar a {
     text-align: center;
     color: green;
@@ -184,47 +213,59 @@ h1 {
     margin-bottom: 20px;
     font-size: 22px;
 }
-.admin_sidebar ul{
+
+.admin_sidebar ul {
     padding-left: 0;
 }
-.admin_sidebar ul li{
+
+.admin_sidebar ul li {
     padding: 5px;
     transition: .5s;
     list-style: none;
 }
-.admin_sidebar ul li:hover{
+
+.admin_sidebar ul li:hover {
     background-color: #ffdd00;
 }
-.admin_sidebar ul li:hover a{
+
+.admin_sidebar ul li:hover a {
     color: black;
 }
-.admin_sidebar ul li a{
+
+.admin_sidebar ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
 }
-.admin_sidebar h1{
-    text-align:center;
+
+.admin_sidebar h1 {
+    text-align: center;
     color: #0D9C4A;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 22px;
 }
-table{
+
+table {
     width: 100%;
 }
-table tr td,th{
+
+table tr td,
+th {
     padding: 2px 10px;
-    font-size:14px;
-    border:1px solid #555;
+    font-size: 14px;
+    border: 1px solid #555;
 }
-table tr th{
+
+table tr th {
     background-color: #dfdfdf;
 }
-h1{
+
+h1 {
     font-size: 25px;
 }
-.dash_counter{
+
+.dash_counter {
     padding: 5px;
     border: 2px solid #000;
     border-radius: 10px;
@@ -233,10 +274,12 @@ h1{
     margin-right: 10px;
     margin-bottom: 2.2rem;
 }
-.dash_counter h4,p{
+
+.dash_counter h4,
+p {
     font-size: 20px;
 }
 
-.productLink{
-    font-size:8px;
+.productLink {
+    font-size: 8px;
 }
