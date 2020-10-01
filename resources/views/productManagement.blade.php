@@ -40,7 +40,7 @@
                         <td>{{$product->price}}</td>
                         <td><img src="{{ $product->cover_img }}" class="img-thumbnail" width="75" />{{$product->cover_img}}</td>
                         <td>{{$product->type}}</td>
-                        <td>{{$product->productLink}}</td>
+                        <td class="productLink">{{$product->productLink}}</td>
                         <td><a href="/product/{{ $product->name }}/edit" class="btn btn-primary">Modify</a></td>
                         <td>
                             <form action="/product/{{ $product->name }}" method="post">
