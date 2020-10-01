@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Response;
 use Illuminate\Http\Request;
 use App\carousel;
-use Image;
-use DB;
+use Illuminate\Support\Facades\DB;
 class CarouselController extends Controller
 {
     public function index()
