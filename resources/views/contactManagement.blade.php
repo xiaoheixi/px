@@ -29,8 +29,8 @@
                         <th>Contact Postal</th>
                         <th>Contact Address</th>
                         <th>Contact Email</th>
-                        <th></th>
-                        <th></th>
+                        <th>Modify</th>
+                        <th>Delete</th>
                     </tr>
                     @foreach($contactDetail as $contact)
                     <tr>

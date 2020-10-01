@@ -26,8 +26,8 @@
                     <tr>
                         <th>Title</th>
                         <th>URI</th>
-                        <th></th>
-                        <th></th>
+                        <th>Modify</th>
+                        <th>Delete</th>
                     </tr>
                     @foreach($pages as $page)
                     <tr>

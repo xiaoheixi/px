@@ -33,8 +33,8 @@
             <th>Product Price</th>
             <th>Total Price</th>
             <th>Quantity</th>
-            <th></th>
-            <th></th>
+            <th>Modify</th>
+            <th>Delete</th>
           </tr>
           @foreach($transactionContent as $transaction)
           <tr>

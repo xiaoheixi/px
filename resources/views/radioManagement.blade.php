@@ -26,8 +26,8 @@
                     <tr>
                         <th>Name</th>
                         <th>File</th>
-                        <th></th>
-                        <th></th>
+                        <th>Modify</th>
+                        <th>Delete</th>
                     </tr>
                     @foreach($radioContent as $radio)
                     <tr>

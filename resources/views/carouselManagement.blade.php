@@ -26,8 +26,8 @@
                     <tr>
                         <th>Name</th>
                         <th>Image</th>
-                        <th></th>
-                        <th></th>
+                        <th>Modify</th>
+                        <th>Delete</th>
                     </tr>
                     @foreach($carouselContent as $carousel)
                     <tr>

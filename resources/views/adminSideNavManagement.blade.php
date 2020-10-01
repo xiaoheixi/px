@@ -27,8 +27,8 @@
                     <tr>
                         <th>Admin Side Navigation Bar Option Name</th>
                         <th>Admin Side Navigation Bar Option Link</th>
-                        <th></th>
-                        <th></th>
+                        <th>Modify</th>
+                        <th>Delete</th>
                     </tr>
                     @foreach($adminSideNavContent as $adminSideNav)
                     <tr>

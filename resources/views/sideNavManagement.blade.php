@@ -26,8 +26,8 @@
                     <tr>
                         <th>Side Navigation Bar Option Name</th>
                         <th>Side Navigation Bar Option Link</th>
-                        <th></th>
-                        <th></th>
+                        <th>Modify</th>
+                        <th>Delete</th>
                     </tr>
                     @foreach($side_navs as $side_nav)
                     <tr>

@@ -27,8 +27,8 @@
                         <th>Name</th>
                         <th>Description</th>
                         <th>Link</th>
-                        <th></th>
-                        <th></th>
+                        <th>Modify</th>
+                        <th>Delete</th>
                     </tr>
                     @foreach($serviceContent as $service)
                     <tr>

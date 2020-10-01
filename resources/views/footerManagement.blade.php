@@ -27,8 +27,8 @@
                         <th>Footer Name</th>
                         <th>Footer Text</th>
                         <th>Footer Link</th>
-                        <th></th>
-                        <th></th>
+                        <th>Modify</th>
+                        <th>Delete</th>
                     </tr>
                     @foreach($footerContent as $footer)
                     <tr>

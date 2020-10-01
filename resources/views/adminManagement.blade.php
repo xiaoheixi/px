@@ -28,8 +28,8 @@
                         <th>Admin Name</th>
                         <th>Admin Email</th>
                         <th>Admin Password</th>
-                        <th></th>
-                        <th></th>
+                        <th>Modify</th>
+                        <th>Delete</th>
                     </tr>
                     @foreach($adminContent as $admin)
                     <tr>
