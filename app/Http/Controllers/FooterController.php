@@ -4,8 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\footer;
-use DB;
-use Illuminate\Database\MySqlConnection;
+use Illuminate\Support\Facades\DB;
 class FooterController extends Controller
 {
     public function index()
