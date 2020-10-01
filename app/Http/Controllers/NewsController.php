@@ -4,8 +4,7 @@ namespace App\Http\Controllers;
 
 use App\news;
 use Illuminate\Http\Request;
-use DB;
-use Illuminate\Database\MySqlConnection;
+use Illuminate\Support\Facades\DB;
 class NewsController extends Controller
 {
     public function index()
@@ -37,7 +36,7 @@ class NewsController extends Controller
     {
             $newsContent = DB::table('news')->where('newsName',$newsName)->first();
             return view('page.dynamic', ['newsContent' => $newsContent]);
-        
+
     }
     public function edit($newsName)
     {
