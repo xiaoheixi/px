@@ -38,7 +38,7 @@
                         <td>{{$product->name}}</a></td>
                         <td>{{$product->description}}</td>
                         <td>{{$product->price}}</td>
-                        <td><img src="{{ $product->image }}" class="img-thumbnail" width="75" />{{$product->image}}</td>
+                        <td><img src="{{ $product->cover_img }}" class="img-thumbnail" width="75" />{{$product->cover_img}}</td>
                         <td>{{$product->type}}</td>
                         <td>{{$product->productLink}}</td>
                         <td><a href="/product/{{ $product->name }}/edit" class="btn btn-primary">Modify</a></td>
@@ -61,3 +61,7 @@
 </body>
 
 </html>
+
+
+
+<!-- <td><img src="{{ $product->image }}" class="img-thumbnail" width="75" />{{$product->image}}</td> !-->

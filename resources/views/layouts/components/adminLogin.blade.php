@@ -6,7 +6,7 @@
 
         <div class="widget cart" style="padding: 20px;background: #dcdcdc;">
           <center>
-          <img src="{{ asset('images/logo.jpg') }}" style="width: 250px;height: 80px;" />
+          <img src="{{ asset('images/Marketing_4_Growth_Logo.png') }}" style="width: 250px;height: 80px;" />
           </center>
           <hr/>
           <h3 align="left">Login</h3> 

@@ -21,7 +21,7 @@
                     <div>
                         <h1>Welcome to Admin Dashboard</h1>
                         <hr />
-                        <img src="images/OIP.jpg" style="width: 200px;" />
+                       <!-- <img src="images/Marketing_4_Growth_Logo.png" style="width: 100px;" /><p>List of Contents of Pages</p>!-->
                         <hr />
                         <div class="container">
                             <div class="row">
