@@ -4,8 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Nav;
-use DB;
-use Illuminate\Database\MySqlConnection;
+use Illuminate\Support\Facades\DB;
 class NavController extends Controller
 {
     public function index()

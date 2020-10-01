@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use App\Product;
-use Image;
 class ProductController extends Controller
 {
     public function index()

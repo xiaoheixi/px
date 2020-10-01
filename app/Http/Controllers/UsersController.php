@@ -3,11 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\User;
-use Validator;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Database\MySqlConnection;
 use Illuminate\Support\Facades\Hash;
 
 

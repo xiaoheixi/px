@@ -3,10 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Order;
-use App\Product;
 use App\Mail\OrderPaid;
 use Illuminate\Http\Request;
-use NunoMaduro\Collision\Provider;
 use Illuminate\Support\Facades\Mail;
 use Srmklive\PayPal\Services\ExpressCheckout;
 
