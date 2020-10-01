@@ -4,11 +4,10 @@ namespace App\Http\Controllers;
 use App\Page;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Database\MySqlConnection;
 class PageController extends Controller
 {
     public function index()
-    { 
+    {
         $pages = Page::all();
         return view('pageManagement', compact('pages'));
     }
