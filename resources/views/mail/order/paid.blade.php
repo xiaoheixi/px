@@ -11,6 +11,7 @@ Here is your receipt
             <th>Product name</th>
             <th>Quantity</th>
             <th>Price</th>
+            <th>Product Link</th>
         </tr>
     </thead>
     <tbody>
@@ -19,12 +20,13 @@ Here is your receipt
             <td scope="row">{{ $item->name }}</td>
             <td>{{ $item->pivot->quantity }}</td>
             <td>{{ $item->pivot->price}}</td>
+            <td>{{ $item->productLink}}</td>
         </tr>
         @endforeach
     </tbody>
 </table>
 
-Total : {{$order->grand_total}}
+Total : {{$order->grand_total}}<br>
 
 Thanks,<br>
 {{ config('app.name') }}
