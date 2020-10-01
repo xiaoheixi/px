@@ -32,7 +32,7 @@
                         </tr>
                         @foreach($orderContent as $order)
                         <tr>
-                            <td>{{$order->order_number}}</a></td>
+                            <td>{{$order->order_number}}</td>
                             <td>{{$order->status}}</td>
                             <td>{{$order->grand_total}}</td>
                             <td>{{$order->item_count}}</td>

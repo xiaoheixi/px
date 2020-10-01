@@ -14,7 +14,6 @@ class SendEmailController extends Controller
             'email' => 'required|email',
             'message' => 'required'
         ]);
-        $obj = \App\Product::where('name', $request->name);
         $data = array(
             'name' => $request->name,
             'email' => $request->email,

@@ -43,7 +43,9 @@ h1 {
     margin: 0;
 }
 
-
+.form-groupFooter{
+    margin-bottom: 0rem;
+}
 /* user side */
 .news-page,
 .service-page {
