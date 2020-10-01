@@ -19,7 +19,7 @@
                 <h1>Welcome to Product Management</h1>
                 <hr />
                 <div align="right">
-                    <a href="{{url('createProduct')}}" class="btn btn-info">Add Product</a>
+                    <a href="{{url('createProduct')}}" class="btn btn-info">Add New</a>
                 </div>
                 <hr />
                 <table style="width:100%">

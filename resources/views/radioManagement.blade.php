@@ -19,7 +19,7 @@
                 <h1>Welcome to Radio Management</h1>
                 <hr />
                 <div align="right">
-                    <a href="{{url('createRadio')}}" class="btn btn-info">Add Radio</a>
+                    <a href="{{url('createRadio')}}" class="btn btn-info">Add New</a>
                 </div>
                 <hr />
                 <table style="width:100%">

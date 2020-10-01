@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Administrator Management</title>
-    
+
 </head>
 
 <body>
@@ -20,7 +20,7 @@
                 <h1>Welcome to Administrator Management</h1>
                 <hr />
                 <div align="right">
-                    <a href="{{url('createAdmin')}}" class="btn btn-info">Add Administrator Detail</a>
+                    <a href="{{url('createAdmin')}}" class="btn btn-info">Add New</a>
                 </div>
                 <hr />
                 <table class="data_table">

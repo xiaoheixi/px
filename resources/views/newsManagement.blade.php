@@ -19,7 +19,7 @@
                 <h1>Welcome to News Management</h1>
                 <hr />
                 <div align="right">
-                    <a href="{{url('createNews')}}" class="btn btn-info">Add News</a>
+                    <a href="{{url('createNews')}}" class="btn btn-info">Add New</a>
                 </div>
                 <hr />
                 <table style="width:100%">

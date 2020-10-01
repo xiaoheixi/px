@@ -19,7 +19,7 @@
                 <h1>Welcome to Carousel Management</h1>
                 <hr />
                 <div align="right">
-                    <a href="{{url('createCarousel')}}" class="btn btn-info">Add Carousel</a>
+                    <a href="{{url('createCarousel')}}" class="btn btn-info">Add New</a>
                 </div>
                 <hr />
                 <table style="width:100%">

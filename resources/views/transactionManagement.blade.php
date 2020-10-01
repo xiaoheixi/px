@@ -19,7 +19,7 @@
         <h1>Welcome to Transaction Management</h1>
         <hr />
         <div align="right">
-          <a href="{{url('createTransaction')}}" class="btn btn-info">Add Transaction</a>
+          <a href="{{url('createTransaction')}}" class="btn btn-info">Add New</a>
         </div>
         <hr />
         <table style="width:100%">

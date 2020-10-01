@@ -19,7 +19,7 @@
                 <h1>Welcome to Service Management</h1>
                 <hr />
                 <div align="right">
-                    <a href="{{url('createService')}}" class="btn btn-info">Add Service</a>
+                    <a href="{{url('createService')}}" class="btn btn-info">Add New</a>
                 </div>
                 <hr />
                 <table style="width:100%">

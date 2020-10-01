@@ -19,7 +19,7 @@
                 <h1>Welcome to Footer Management</h1>
                 <hr />
                 <div align="right">
-                    <a href="{{url('createFooter')}}" class="btn btn-info">Add Footer</a>
+                    <a href="{{url('createFooter')}}" class="btn btn-info">Add New</a>
                 </div>
                 <hr />
                 <table style="width:100%">

@@ -19,7 +19,7 @@
                 <h1>Welcome to Contact Detail Management</h1>
                 <hr />
                 <div align="right">
-                    <a href="{{url('createContact')}}" class="btn btn-info">Add Contact Detail</a>
+                    <a href="{{url('createContact')}}" class="btn btn-info">Add New</a>
                 </div>
                 <hr />
                 <table style="width:100%">
