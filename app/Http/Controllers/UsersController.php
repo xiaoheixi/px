@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Validator;
-use Auth;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
-use DB;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\MySqlConnection;
 use Illuminate\Support\Facades\Hash;
 
@@ -78,7 +78,7 @@ class UsersController extends Controller
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
             // Authentication passed...
-            return redirect()->to('/a');
+            return redirect()->to('/dashboard');
         }
     }
     public function checklogin(Request $request)
@@ -93,11 +93,15 @@ class UsersController extends Controller
         );
         if(Auth::attempt($user_data))
         {
-            return redirect()->to('/a');
+            return redirect()->to('/dashboard');
         }
         else
         {
             return back();
         }
     }
+    public function logout(Request $request) {
+        Auth::logout();
+        return redirect('/page/adminLogin');
+      }
 }
