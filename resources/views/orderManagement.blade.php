@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>Administrator Management</title>
+    <title>Order History</title>
 </head>
 
 <body>
@@ -25,13 +25,10 @@
                             <th>Status</th>
                             <th>Total Price</th>
                             <th>Quantity</th>
-                            <th>Paid Yet</th>
-                            <th>Payment Method</th>
                             <th>Shipping Full Name</th>
                             <th>Shipping Email</th>
                             <th>Billing Full Name</th>
-                            <th>Billing</th>
-                            <th>Email</th>
+                            <th>Billing Email</th>
                         </tr>
                         @foreach($orderContent as $order)
                         <tr>
@@ -39,11 +36,8 @@
                             <td>{{$order->status}}</td>
                             <td>{{$order->grand_total}}</td>
                             <td>{{$order->item_count}}</td>
-                            <td>{{$order->is_paid}}</td>
-                            <td>{{$order->payment_method}}</td>
                             <td>{{$order->shipping_fullname}}</td>
                             <td>{{$order->shipping_email}}</td>
-                            <td>{{$order->notes}}</td>
                             <td>{{$order->billing_fullname}}</td>
                             <td>{{$order->billing_email}}</td>
                         </tr>
