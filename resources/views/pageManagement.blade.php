@@ -19,9 +19,9 @@
                 <h1>Welcome to Page Management</h1>
                 <hr />
                 <div align="right">
-                    <a href="{{url('createPage')}}" class="btn btn-info">Add News</a>
+                    <a href="{{url('createPage')}}" class="btn btn-info">Add New</a>
                 </div>
-                <hr /> 
+                <hr />
                 <table style="width:100%">
                     <tr>
                         <th>Title</th>
