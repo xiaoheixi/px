@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 use App\services;
 use Illuminate\Http\Request;
-use DB;
-use Illuminate\Database\MySqlConnection;
+use Illuminate\Support\Facades\DB;
 class ServicesController extends Controller
 {
     public function index()
@@ -36,7 +35,7 @@ class ServicesController extends Controller
     {
             $serviceContent = DB::table('services')->where('serviceName',$serviceName)->first();
             return view('page.dynamic', ['serviceContent' => $serviceContent]);
-        
+
     }
     public function edit($serviceName)
     {
