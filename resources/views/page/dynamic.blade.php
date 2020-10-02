@@ -105,6 +105,13 @@
         @endcomponent
         @endif
     </body>
+    @if ($pageContent->URI == 'thankYou')
+    <style>
+        .footer-bottom{
+            margin-top: 411px;
+        }
+    </style>
+    @endif
     @if ($pageContent->URI != 'adminLogin')
     @component('layouts.components.footer')
     @endcomponent

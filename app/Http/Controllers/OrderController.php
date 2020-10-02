@@ -44,8 +44,8 @@ class OrderController extends Controller
             $order->billing_email = $request->input('shipping_email');
             $order->payment_method = $request->input('payment_method');
         }else {
-            $order->billing_fullname = $request->input('billing_fullname');
-            $order->billing_email = $request->input('billing_email');
+            $order->shipping_fullname = $request->input('billing_fullname');
+            $order->shipping_email = $request->input('billing_email');
             $order->payment_method = $request->input('payment_method');
         }
 
