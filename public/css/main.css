@@ -43,15 +43,28 @@ h1 {
     margin: 0;
 }
 
-.form-groupFooter{
+.form-groupFooter {
     margin-bottom: 0rem;
 }
+
 /* user side */
 .news-page,
 .service-page {
     min-height: 565px;
     background-color: #f5f5f5;
     padding: 20px;
+}
+
+.form-controlThankYou {
+    width: 200px !important;
+}
+
+.form-controlThankYouMessage {
+    width: 400px !important;
+}
+
+.formThankYou {
+    text-align: center;
 }
 
 .footer-bottom {
