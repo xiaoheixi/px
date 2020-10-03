@@ -24,7 +24,6 @@
                         <th>Footer Text</th>
                         <th>Footer Link</th>
                         <th>Modify</th>
-                        <th>Delete</th>
                     </tr>
                     @foreach($footerContent as $footer)
                     <tr>
@@ -32,13 +31,6 @@
                         <td>{{$footer->footerText}}</td>
                         <td>{{$footer->footerLink}}</td>
                         <td><a class="btn btn-primary" href="/footer/{{ $footer->footerName }}/edit">Modify</a></td>
-                        <td>
-                            <form action="/footer/{{ $footer->footerName }}" method="post">
-                                @csrf
-                                @method('DELETE')
-                                <button class="btn btn-danger">Delete</button>
-                            </form>
-                        </td>
                     </tr>
                     @endforeach
                 </table>
