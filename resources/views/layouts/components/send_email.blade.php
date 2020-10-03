@@ -14,21 +14,27 @@
     <strong>{{ $message }}</strong>
 </div>
 @endif
-<form class="formThankYou" method="post" action="{{ url('sendemail/send') }}">
+<div class ="container">
+<div class = "row justify-content-center">
+<form class="form-container" method="post" action="{{ url('sendemail/send') }}">
 
     {{ csrf_field() }}
     <div class="form-group">
-        <label>Enter Your Name</label>
-        <input type="text" name="name" class=" form-controlThankYou" />
+        <label for="name">Enter Your Name</label>
+        <input type="text" name="name" class=" form-control" />
     </div>
     <div class="form-group">
-        <label>Enter Your Email</label>
-        <input type="text" name="email" class="form-controlThankYou" />
+        <label for= "email">Enter Your Email</label>
+        <input type="text" name="email" class="form-control" />
     </div>
     <div class="form-group">
-        <label>Enter Your Message</label>
-        <textarea name="message" class="form-controlThankYouMessage"></textarea>
+        <label for ="message">Enter Your Message</label>
+        <textarea name="message" class="form-control" placeholder="Write something.."></textarea>
+   
+       
     </div>
-    <div class="form-groupFooter">
-        <input type="submit" name="send" value="Send" class="btn btn-info" />
+    <div class="form-group">
+        <input type="submit" name="send" value="Send" class="btn btn-info btn-block" />
 </form>
+</div>
+</div>
