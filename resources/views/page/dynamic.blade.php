@@ -127,6 +127,16 @@
 
 </style>
 @endif
+@if ($pageContent->URI == 'sendemail')
+<style>
+    .footer-bottom {
+        position:fixed;
+        left:0;
+        bottom:0;
+    }
+
+</style>
+@endif
 @if ($pageContent->URI != 'adminLogin')
 @component('layouts.components.footer')
 @endcomponent
