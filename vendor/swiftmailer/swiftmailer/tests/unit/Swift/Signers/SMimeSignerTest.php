@@ -20,7 +20,7 @@ class Swift_Signers_SMimeSignerTest extends \PHPUnit\Framework\TestCase
     public function testUnSignedMessage()
     {
         $message = (new Swift_Message('Wonderful Subject'))
-          ->setFrom(['john@doe.com' => 'John Doe'])
+          ->setFrom(['john@doe.com' => 'Marketing4Growth'])
           ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
           ->setBody('Here is the message itself');
 
@@ -30,7 +30,7 @@ class Swift_Signers_SMimeSignerTest extends \PHPUnit\Framework\TestCase
     public function testSignedMessage()
     {
         $message = (new Swift_Message('Wonderful Subject'))
-          ->setFrom(['john@doe.com' => 'John Doe'])
+          ->setFrom(['john@doe.com' => 'Marketing4Growth'])
           ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
           ->setBody('Here is the message itself');
 
@@ -128,7 +128,7 @@ OEL;
     public function testSignedMessageExtraCerts()
     {
         $message = (new Swift_Message('Wonderful Subject'))
-          ->setFrom(['john@doe.com' => 'John Doe'])
+          ->setFrom(['john@doe.com' => 'Marketing4Growth'])
           ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
           ->setBody('Here is the message itself');
 
@@ -171,7 +171,7 @@ OEL;
     public function testSignedMessageBinary()
     {
         $message = (new Swift_Message('Wonderful Subject'))
-          ->setFrom(['john@doe.com' => 'John Doe'])
+          ->setFrom(['john@doe.com' => 'Marketing4Growth'])
           ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
           ->setBody('Here is the message itself');
 
@@ -206,7 +206,7 @@ OEL;
     public function testSignedMessageWithAttachments()
     {
         $message = (new Swift_Message('Wonderful Subject'))
-          ->setFrom(['john@doe.com' => 'John Doe'])
+          ->setFrom(['john@doe.com' => 'Marketing4Growth'])
           ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
           ->setBody('Here is the message itself');
 
@@ -270,7 +270,7 @@ OEL;
     public function testEncryptedMessage()
     {
         $message = (new Swift_Message('Wonderful Subject'))
-          ->setFrom(['john@doe.com' => 'John Doe'])
+          ->setFrom(['john@doe.com' => 'Marketing4Growth'])
           ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
           ->setBody('Here is the message itself');
 
@@ -353,7 +353,7 @@ OEL;
     public function testEncryptedMessageWithMultipleCerts()
     {
         $message = (new Swift_Message('Wonderful Subject'))
-          ->setFrom(['john@doe.com' => 'John Doe'])
+          ->setFrom(['john@doe.com' => 'Marketing4Growth'])
           ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
           ->setBody('Here is the message itself');
 
@@ -400,7 +400,7 @@ OEL;
     public function testSignThenEncryptedMessage()
     {
         $message = (new Swift_Message('Wonderful Subject'))
-          ->setFrom(['john@doe.com' => 'John Doe'])
+          ->setFrom(['john@doe.com' => 'Marketing4Growth'])
           ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
           ->setBody('Here is the message itself');
 
@@ -465,7 +465,7 @@ OEL;
     public function testEncryptThenSignMessage()
     {
         $message = (new Swift_Message('Wonderful Subject'))
-          ->setFrom(['john@doe.com' => 'John Doe'])
+          ->setFrom(['john@doe.com' => 'Marketing4Growthg4Growthg4Growth'])
           ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
           ->setBody('Here is the message itself');
 

@@ -14,7 +14,7 @@ class Swift_Plugins_RedirectingPluginTest extends \PHPUnit\Framework\TestCase
     {
         $message = (new Swift_Message())
             ->setSubject('...')
-            ->setFrom(['john@example.com' => 'John Doe'])
+            ->setFrom(['john@example.com' => 'Marketing4Growth'])
             ->setTo($to = [
                 'fabien-to@example.com' => 'Fabien (To)',
                 'chris-to@example.com' => 'Chris (To)',
@@ -51,7 +51,7 @@ class Swift_Plugins_RedirectingPluginTest extends \PHPUnit\Framework\TestCase
     {
         $message = (new Swift_Message())
             ->setSubject('...')
-            ->setFrom(['john@example.com' => 'John Doe'])
+            ->setFrom(['john@example.com' => 'Marketing4Growth'])
             ->setCc($cc = [
                 'fabien-cc@example.com' => 'Fabien (Cc)',
                 'chris-cc@example.com' => 'Chris (Cc)',
@@ -84,7 +84,7 @@ class Swift_Plugins_RedirectingPluginTest extends \PHPUnit\Framework\TestCase
     {
         $message = (new Swift_Message())
             ->setSubject('...')
-            ->setFrom(['john@example.com' => 'John Doe'])
+            ->setFrom(['john@example.com' => 'Marketing4Growth'])
             ->setTo($to = [
                 'fabien-to@example.com' => 'Fabien (To)',
                 'chris-to@example.com' => 'Chris (To)',
@@ -130,7 +130,7 @@ class Swift_Plugins_RedirectingPluginTest extends \PHPUnit\Framework\TestCase
     {
         $message = (new Swift_Message())
             ->setSubject('...')
-            ->setFrom(['john@example.com' => 'John Doe'])
+            ->setFrom(['john@example.com' => 'Marketing4Growth'])
             ->setTo([
             'fabien@example.com' => 'Fabien',
             'chris@example.com' => 'Chris (To)',

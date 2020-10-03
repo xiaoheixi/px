@@ -15,6 +15,7 @@
 </div>
 @endif
 <form class="formThankYou" method="post" action="{{ url('sendemail/send') }}">
+
     {{ csrf_field() }}
     <div class="form-group">
         <label>Enter Your Name</label>

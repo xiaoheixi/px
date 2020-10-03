@@ -42,7 +42,7 @@ class Person extends Base
     /**
      * @param string|null $gender 'male', 'female' or null for any
      * @return string
-     * @example 'John Doe'
+     * @example 'Marketing4Growth'
      */
     public function name($gender = null)
     {

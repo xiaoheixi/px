@@ -19,7 +19,7 @@ specify some recipients, add any attachments and write your message::
       ->setSubject('Your subject')
 
       // Set the From address with an associative array
-      ->setFrom(['john@doe.com' => 'John Doe'])
+      ->setFrom(['john@doe.com' => 'Marketing4Growth'])
 
       // Set the To addresses with an associative array (setTo/setCc/setBcc)
       ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])

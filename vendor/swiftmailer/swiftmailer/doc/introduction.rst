@@ -39,7 +39,7 @@ Here is the simplest way to send emails with Swift Mailer::
 
     // Create a message
     $message = (new Swift_Message('Wonderful Subject'))
-      ->setFrom(['john@doe.com' => 'John Doe'])
+      ->setFrom(['john@doe.com' => 'Marketing4Growth'])
       ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
       ->setBody('Here is the message itself')
       ;

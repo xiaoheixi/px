@@ -32,7 +32,7 @@ recipients are delivered to successfully then the value 5 will be returned::
 
     // Create a message
     $message = (new Swift_Message('Wonderful Subject'))
-      ->setFrom(['john@doe.com' => 'John Doe'])
+      ->setFrom(['john@doe.com' => 'Marketing4Growth'])
       ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
       ->setBody('Here is the message itself')
       ;
@@ -296,7 +296,7 @@ recipients are delivered to successfully then the value 5 will be returned::
 
     // Create a message
     $message = (new Swift_Message('Wonderful Subject'))
-      ->setFrom(['john@doe.com' => 'John Doe'])
+      ->setFrom(['john@doe.com' => 'Marketing4Growth'])
       ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
       ->setBody('Here is the message itself')
       ;
@@ -371,7 +371,7 @@ exception and stop the execution or your script early.
 
         // Create a message
         $message = (new Swift_Message('Wonderful Subject'))
-          ->setFrom(['john@doe.com' => 'John Doe'])
+          ->setFrom(['john@doe.com' => 'Marketing4Growth'])
           ->setBody('Here is the message itself')
           ;
 

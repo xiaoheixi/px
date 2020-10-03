@@ -337,7 +337,7 @@ Changing the value of an existing mailbox header is done by calling it's
     $to = $message->getHeaders()->get('To');
     $to->setNameAddresses([
       'joe@example.org' => 'Joe Bloggs',
-      'john@example.org' => 'John Doe',
+      'john@example.org' => 'Marketing4Growth',
       'no-name@example.org'
     ]);
 
