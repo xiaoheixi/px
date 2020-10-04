@@ -120,9 +120,9 @@
 @if ($pageContent->URI == 'thankYou')
 <style>
     .footer-bottom {
-        position:fixed;
-        left:0;
-        bottom:0;
+        position: fixed;
+        left: 0;
+        bottom: 0;
     }
 
 </style>
@@ -130,9 +130,9 @@
 @if ($pageContent->URI == 'sendemail')
 <style>
     .footer-bottom {
-        position:fixed;
-        left:0;
-        bottom:0;
+        position: fixed;
+        left: 0;
+        bottom: 0;
     }
 
 </style>
