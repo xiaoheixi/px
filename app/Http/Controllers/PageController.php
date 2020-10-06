@@ -23,18 +23,17 @@ class PageController extends Controller
             'URI'              =>  'required|min:4|max:10|',
             'pageContent'      =>  'required',
         ]);
-        /*$objTitle = DB::table('pages')->where('title', $request->get('title'));
+        $objTitle = DB::table('pages')->where('title', $request->get('title'));
         $objURI = DB::table('pages')->where('URI', $request->get('URI'));
         $count = DB::table('pages')->count();
         for($count>0; $count--;){
             if($objTitle == $request->get('title')){
-                return redirect('/pr');
+                return back();
             }
-            else if($objURI == $request->get('URI')){
+            if($objURI == $request->get('URI')){
                 return back();
             }
         }
-        else {
             $page = new Page([
                 'title'            =>    $request->get('title'),
                 'URI'              =>    $request->get('URI'),
@@ -42,7 +41,6 @@ class PageController extends Controller
             ]);
             $page->save();
             return redirect('/p');
-        }*/
 
     }
     public function show($URI)
