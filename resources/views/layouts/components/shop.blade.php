@@ -12,7 +12,7 @@
                 @foreach($allProducts as $product)
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img-top" src="/{{ $product->cover_img }}" alt="{{ $product->cover_img }}">
+                        <img height="250px" width="150px" class="card-img-top" src="/{{ $product->cover_img }}" alt="{{ $product->cover_img }}">
                         <div class="card-body">
                             <h4 class="card-title">{{$product->name}}</h4>
                             <p class="card-text">{{$product->description}}</p>
