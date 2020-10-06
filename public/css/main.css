@@ -17,6 +17,10 @@ h1 {
     right: 1px;
 }
 
+.text-center {
+    font-size: 10px;
+}
+
 .card-admin-dashboard {
     width: 100px;
     padding: 10px;
@@ -136,7 +140,7 @@ h1 {
     background: #000000;
     text-align: center;
     text-justify: inter-word;
-
+    font-size: 10px;
 }
 
 .page-title-header {
