@@ -10,7 +10,7 @@
                 <label for=""><B>Email:</B></label><br>
                 <input type="text" id="" name="shipping_email" autocomplete="off" value="{{ old('shipping_email') }}"><br>
                 <hr />
-                <input type="submit" value="Purchase" class="btn btn-success">
+                <input type="submit" value="Purchase With PayPal" class="btn btn-success">
             </form>
         </div>
     </div>
