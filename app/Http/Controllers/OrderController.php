@@ -53,9 +53,7 @@ class OrderController extends Controller
         $order->item_count = \Cart::getContent()->count();
 
         $order->status = 'pending';
-        if (request('payment_method') == 'paypal') {
-            $order->payment_method = 'paypal';
-        }
+        $order->payment_method = 'paypal';
         $order->save();
 
         //save order items
@@ -66,16 +64,8 @@ class OrderController extends Controller
         }
         $order->save();
         //payment
-        if(request('payment_method') == 'PayPal') {
             //redirect to paypal
             return redirect()->route('paypal.checkout', $order->id);
-        }
-        if(request('payment_method') == 'stripe') {
-            //redirect to stripe
-        }
-        if(request('payment_method') == 'square') {
-            //redirect to square
-        }
 
         //empty cart
         \Cart::clear();
